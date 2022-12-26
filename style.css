@@ -1,0 +1,63 @@
+body {
+  background-color:#151522;
+  overflow: hidden;
+  color: aliceblue;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.sparkle{
+  /* mix-blend-mode:luminosity */
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.container .text-container{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content:flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.container .text-container .text{
+  height: 80%;
+  width: 50%;
+}
+
+.container .text-container .music{
+   width: 200px;
+}
+audio{
+  height: 10px !important;
+}
+
+.container .tree{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
